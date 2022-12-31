@@ -1,0 +1,6 @@
+CREATE DATABASE gallery;
+CREATE TABLE galleryTable(
+    taskID SERIAL PRIMARY KEY,
+    taskDes VARCHAR(100) ,
+    completed BOOLEAN NOT NULL DEFAULT FALSE
+);
