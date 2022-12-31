@@ -25,6 +25,29 @@ function MyGal() {
     setMessage("");
   };
 
+  let data = [
+    {
+      id: 1,
+      imgSrc: Img1,
+    },
+    {
+      id: 2,
+      imgSrc: Img2,
+    },
+    {
+      id: 3,
+      imgSrc: Img3,
+    },
+    {
+      id: 4,
+      imgSrc: Img4,
+    },
+    {
+      id: 5,
+      imgSrc: Img5,
+    },
+  ];
+
   const upload = () => {
     setProgress(0);
 
