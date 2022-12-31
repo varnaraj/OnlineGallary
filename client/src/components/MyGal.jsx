@@ -5,15 +5,10 @@ import Typography from "@mui/material/Typography";
 import Button from "@mui/material/Button";
 // import IconButton from "@mui/material/IconButton";
 // import PhotoCamera from "@mui/icons-material/PhotoCamera";
-import { Grid } from "@mui/material";
+
 // import Stack from "@mui/material/Stack";
 import { useState, useEffect } from "react";
 import UploadService from "../services/FileUploadService";
-import Img1 from "../img/1.JPEG";
-import Img2 from "../img/2.JPEG";
-import Img3 from "../img/3.JPEG";
-import Img4 from "../img/4.JPEG";
-import Img5 from "../img/5.JPEG";
 
 function MyGal() {
   const [currentFile, setCurrentFile] = useState(undefined);
@@ -29,29 +24,6 @@ function MyGal() {
     setProgress(0);
     setMessage("");
   };
-
-  let data = [
-    {
-      id: 1,
-      imgSrc: Img1,
-    },
-    {
-      id: 2,
-      imgSrc: Img2,
-    },
-    {
-      id: 3,
-      imgSrc: Img3,
-    },
-    {
-      id: 4,
-      imgSrc: Img4,
-    },
-    {
-      id: 5,
-      imgSrc: Img5,
-    },
-  ];
 
   const upload = () => {
     setProgress(0);
