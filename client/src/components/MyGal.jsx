@@ -14,7 +14,7 @@ function MyGal() {
   const [currentFile, setCurrentFile] = useState(undefined);
   const [progress, setProgress] = useState(0);
   const [message, setMessage] = useState("");
-  const [imageInfos, setImageInfos] = useState([]);
+  const [imageInfos, setImageInfos] = useState(["hii"]);
 
   const selectFile = (event) => {
     console.log(event);
@@ -118,7 +118,7 @@ function MyGal() {
 
       <Box mt={3} sx={{ display: "flex" }}>
         <div className="gallary">
-          {console.log("line 121"+ imageInfos)}
+         {imageInfos}
           {/* <Grid container item spacing={25} sx={{ ml: 5, mr: 5, mt: -2 }}> */}
           {/* <Grid item xs={12} sm={6}>
             <Grid container>
