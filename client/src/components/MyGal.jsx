@@ -118,6 +118,7 @@ function MyGal() {
 
       <Box mt={3} sx={{ display: "flex" }}>
         <div className="gallary">
+          {console.log("line 121"+ imageInfos)}
           {/* <Grid container item spacing={25} sx={{ ml: 5, mr: 5, mt: -2 }}> */}
           {/* <Grid item xs={12} sm={6}>
             <Grid container>
