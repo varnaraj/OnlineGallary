@@ -25,8 +25,6 @@ function MyGal() {
     setMessage("");
   };
 
-
-
   const upload = () => {
     setProgress(0);
 
@@ -138,8 +136,11 @@ function MyGal() {
                 className="pics"
                 key={index}
               >
-                {/* {console.log(item.url)} */}
-
+                {console.log(item.url)}
+                {console.log(
+                  "line 141= http://ec2-13-213-36-94.ap-southeast-1.compute.amazonaws.com:8080/files/" +
+                    item.name
+                )}
                 <img
                   width={425}
                   src={
