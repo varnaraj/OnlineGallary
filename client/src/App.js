@@ -8,11 +8,9 @@ import "bootstrap/dist/css/bootstrap.min.css";
 function App() {
   return (
     <div className="App">
-      {/* <SignUp/> */}
+    
       <MyGal/>
-      {/* <UploadImages /> */}
-      {/* <Gallary /> */}
-      {/* <ImageUploadCard /> */}
+     
     </div>
   );
 }
